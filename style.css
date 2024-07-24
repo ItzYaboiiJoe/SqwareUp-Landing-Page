@@ -1,0 +1,33 @@
+html, body {
+    font-family: sans-serif;
+}
+
+img {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.no-border {
+    border: none;
+    height: 70px;
+}
+
+.google-size {
+    width: 185px;
+    height: 68.5px;
+    padding-bottom: 6.3px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.tabs ul .center {
+    color: greenyellow;
+    margin-left: auto;
+    margin-right: 140px;
+  }
+
+.tabs ul .right {
+    margin-left: auto;
+}
