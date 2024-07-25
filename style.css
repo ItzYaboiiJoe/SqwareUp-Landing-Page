@@ -15,7 +15,6 @@ img {
 .google-size {
     width: 185px;
     height: 68.5px;
-    padding-bottom: 6.3px;
 }
 
 .bold {
@@ -45,9 +44,9 @@ img {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 10px solid rgba(192, 192, 192, 0.8);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 18px solid rgba(192, 192, 192, 0.8);
     animation: float 10s infinite ease-in-out;
 }
 
@@ -63,4 +62,13 @@ img {
         transform: translateY(-100vh) translateX(20vw);
         opacity: 0;
     }
+}
+
+.floating-square {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 10;
 }
